@@ -3,4 +3,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python3 -m bot
+  worker: python3 -m stream
