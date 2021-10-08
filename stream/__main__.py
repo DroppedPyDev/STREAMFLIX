@@ -8,7 +8,7 @@ import glob
 import importlib
 from pathlib import Path
 from pyrogram import Client, idle
-from config import Sophia
+from config import CatX_botz
 from stream.videoplayer import app
 from stream.videoplayer import call_py
 from helpers.loggings import LOG
@@ -26,11 +26,11 @@ StartTime = time.time()
 
 loop = asyncio.get_event_loop()
 
-_path = f"bot/*.py"
+_path = f"stream/*.py"
 files = glob.glob(_path)
 
 def load_plugins(plugin_name):
-    path = Path(f"bot/{plugin_name}.py")
+    path = Path(f"stream/{plugin_name}.py")
     name = "bot.{}".format(plugin_name)
     spec = importlib.util.spec_from_file_location(name, path)
     load = importlib.util.module_from_spec(spec)
@@ -40,7 +40,7 @@ def load_plugins(plugin_name):
 
 async def start():
     print('\n')
-    print('------------------ Initalizing SOPHIA --------------------')
+    print('------------------ Initalizing CatX_botz --------------------')
     if bot:
         await bot.start()
     await app.start()
