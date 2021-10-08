@@ -10,12 +10,11 @@ RUN apt-get install -y nodejs
 RUN npm install -g npm@7.22.0
 RUN npm i -g npm
 
-COPY . /py
-WORKDIR /py
+COPY . /app
+WORKDIR /app
 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 
-CMD python3 -m stream
+CMD python3.9 -m stream
 
-# @CatX_botz
