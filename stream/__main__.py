@@ -16,8 +16,8 @@ from helpers.loggings import LOG
     
 bot = Client(
     ":memory:",
-    Sophia.API_ID,
-    Sophia.API_HASH,
+    CatX_botz.API_ID,
+    CatX_botz.API_HASH,
     bot_token=CatX_botz.BOT_TOKEN,
     plugins=dict(root="bot"),
 )
@@ -52,7 +52,7 @@ async def start():
             path_ = Path(a.name)
             plugin_name = path_.stem
             load_plugins(plugin_name.replace(".py", ""))
-    print('------------------- INITIATED SOPHIA ---------------------')
+    print('------------------- INITIATED CatX_botz ---------------------')
     print('     Logged in as User =>> {}'.format((await app.get_me()).first_name))
     if bot:
         print('     Logged in to Bots =>> {}'.format((await bot.get_me()).first_name))
