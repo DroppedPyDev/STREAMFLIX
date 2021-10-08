@@ -32,7 +32,7 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
 
 
-@Client.on_message(command(["start", f"start@{Sophia.BOT_USERNAME}"]))
+@Client.on_message(command(["start", f"start@{CatX_botz.BOT_USERNAME}"]))
 async def start(_, m: Message):
     if m.chat.type == "private":
         await m.reply_text(
