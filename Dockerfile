@@ -10,8 +10,8 @@ RUN apt-get install -y nodejs
 RUN npm install -g npm@7.22.0
 RUN npm i -g npm
 
-COPY . /app
-WORKDIR /app
+COPY . /py
+WORKDIR /py
 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
