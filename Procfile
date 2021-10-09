@@ -1,1 +1,1 @@
-worker: python3 -m stream
+worker: python3 -m STREAMFLIX
