@@ -1,5 +1,5 @@
 # STREAMFLIX
-A Telegram Bot for Streaming Video &amp; Audio in Voce Chat of Your Group and Channels. A Product Made by ♥️ @MIDRANGEBOTZ
+A Telegram Bot for Streaming Video &amp; Audio in Voce Chat of Your Group and Channels. A Product Made by ♥️ @AAMIBOTCHATS
 
 ```
 This is an Open Source Project, You Must be ⭐ and Fork these Codes!
@@ -42,7 +42,7 @@ Traditional Method
 <h1 align="center"> Telegram Support </h1>
 
 <p align="center">
-<a href="https://t.me/MIDRANGEBOTZ">
+<a href="https://t.me/AAMIBOTUPDATES">
 <img src="https://vectorlogo.zone/logos/telegram/telegram-icon.svg" alt="Reach Support" height="50px" width="50px">
 </a></p>
 
